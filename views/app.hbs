@@ -1,0 +1,28 @@
+<div class="center">
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row"></div>
+    <div class="row">
+       {{msg}}
+    </div>
+<div class="row">
+    <form action="/mail" method="post">
+        <div class="col s12">
+          Enter mail Id :
+          <div class="input-field inline">
+            <input id="email_inline" type="email" class="validate" name="email" required>
+            <label for="email_inline">Email</label>
+            <span class="helper-text" data-error="wrong" data-success="right">OTP will be sent to this mail Id</span>
+          </div>
+        </div>
+    <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+  </button>
+    </div>
+    </form>
+    
+<div>
+</div>
